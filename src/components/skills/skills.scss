@@ -21,7 +21,11 @@
     gap: 20px;
 
     .break {
+
+      @include mobile {
       width: 160%;
+
+      }
     }
 
 
