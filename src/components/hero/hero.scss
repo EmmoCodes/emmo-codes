@@ -37,7 +37,7 @@
       }
 
       h2 {
-        font-size: 30px;
+        font-size: 44px;
         color: rebeccapurple;
         letter-spacing: 10px;
       }
@@ -45,10 +45,10 @@
       .typeAnimation {
         font-size: 88px;
 
-
         @include tablet {
           font-size: 3em;
         }
+
         @include mobile {
           margin-top: 48px;
           font-size: 1.4em;

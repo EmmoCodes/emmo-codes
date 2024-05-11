@@ -1,6 +1,8 @@
 import Sidebar from '../sidebar/Sidebar.jsx'
 import './navbar.scss'
-import { motion } from 'framer-motion'
+import linkedIn from '/public/linkedIn.svg'
+import gitHub from '/public/gitHub.svg'
+import mail from '/public/mail.svg'
 
 const Navbar = () => {
   return (
@@ -9,14 +11,14 @@ const Navbar = () => {
       <div className="wrapper">
         <span></span>
         <div className="social">
-          <a href="#">
-            <img src="/public/mail.svg" alt="" />
+          <a onClick={() => (window.location = 'mailto:Gianluca1996@gmx.de')} href="#">
+            <img src={mail} alt="" />
           </a>
-          <a href="#">
-            <img src="/public/gitHub.svg" alt="" />
+          <a href="https://github.com/EmmoCodes">
+            <img src={gitHub} alt="" />
           </a>
-          <a href="#">
-            <img src="/public/linkedIn.svg" alt="" />
+          <a href="https://www.linkedin.com/in/marco-orlandi-46010727a/">
+            <img src={linkedIn} alt="" />
           </a>
         </div>
       </div>

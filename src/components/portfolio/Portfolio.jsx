@@ -5,6 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 const items = [
   {
     id: 1,
+    repo: 'https://github.com/EmmoCodes/instagram_mockup_frontend',
     url: 'https://fakestagram.onrender.com/register',
     title: 'Social Media App',
     img: './toktok.png',
@@ -12,7 +13,8 @@ const items = [
   },
   {
     id: 2,
-    url: 'https://njetflix.netlify.app/',
+    repo: 'https://github.com/EmmoCodes/movie_app',
+    url: 'https://github.com/EmmoCodes/movie_app',
     title: 'Movie App',
     img: './movieApp.png',
     desc:
@@ -21,6 +23,7 @@ const items = [
   },
   {
     id: 3,
+    repo: 'https://github.com/EmmoCodes/rock_paper_scissors',
     url: 'https://emmocodes.github.io/rock_paper_scissors/',
     title: 'Rock, Paper, Scissor',
     img: './rockPaperScissor.png',
@@ -31,6 +34,7 @@ const items = [
   {
     id: 4,
     url: 'https://emmocodes.github.io/new_interior/',
+    repo: 'https://github.com/EmmoCodes/new_interior',
     title: 'New Interior',
     img: './newInterior.png',
     desc:
@@ -60,6 +64,9 @@ const Single = ({ item }) => {
             <p>{item.desc}</p>
             <a className={'list'} href={item.url}>
               Website
+            </a>
+            <a className={'list'} href={item.repo}>
+              Repository
             </a>
           </motion.div>
         </div>

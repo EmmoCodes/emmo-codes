@@ -56,7 +56,7 @@ const Skills = () => {
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
-        <motion.div className="box" whileHover={{ background: 'lightgray', color: 'black' }}>
+        <motion.div className="box">
           <h2>Frontend</h2>
           <div className={`list`}>
             {frontend.map(item => (
@@ -64,7 +64,7 @@ const Skills = () => {
             ))}
           </div>
         </motion.div>
-        <motion.div className="box" whileHover={{ background: 'lightgray', color: 'black' }}>
+        <motion.div className="box">
           <h2>Backend</h2>
           <div className={`list`}>
             {backend.map(item => (
@@ -72,7 +72,7 @@ const Skills = () => {
             ))}
           </div>
         </motion.div>
-        <motion.div className="box" whileHover={{ background: 'lightgray', color: 'black' }}>
+        <motion.div className="box">
           <h2>Tools</h2>
           <div className={`list`}>
             {tools.map(item => (
