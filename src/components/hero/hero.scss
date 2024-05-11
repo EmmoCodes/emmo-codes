@@ -82,12 +82,7 @@
       img {
         width: 50px;
 
-        @include mobile {
-          position: absolute;
-          bottom: 0;
-          padding-bottom: 13rem;
 
-        }
 
       }
     }
