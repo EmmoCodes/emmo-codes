@@ -1,21 +1,34 @@
+import Test from './Test.jsx'
 import './app.scss'
-import Navbar from "./components/navbar/Navbar.jsx";
-import Test from "./components/Test.jsx";
+import Contact from './components/contact/Contact.jsx'
+import Hero from './components/hero/Hero.jsx'
+import Navbar from './components/navbar/Navbar.jsx'
+import Parallax from './components/parallax/Parallax.jsx'
+import Portfolio from './components/portfolio/Portfolio.jsx'
+import Skills from './components/skills/Skills.jsx'
 
 const App = () => {
-  return <div>
-    {/*<section>*/}
-    {/*  <Navbar/>*/}
-    {/*</section>*/}
-    {/*<section>Parallax</section>*/}
-    {/*<section>Services</section>*/}
-    {/*<section>Parallax</section>*/}
-    {/*<section>Project 1</section>*/}
-    {/*<section>Project 2</section>*/}
-    {/*<section>Project 3</section>*/}
-    {/*<section>Contact</section>*/}
-    <Test/>
-  </div>;
-};
+  return (
+    <div>
+      <section id="Homepage">
+        <Navbar />
+        <Hero />
+      </section>
+      <section id="Skills">
+        <Parallax type="skills" />
+      </section>
+      <section>
+        <Skills />
+      </section>
+      <section id="Portfolio">
+        <Parallax type="portfolio" />
+      </section>
+      <Portfolio />
+      <section id="Contact">
+        <Contact />
+      </section>
+    </div>
+  )
+}
 
-export default App;
+export default App
