@@ -63,15 +63,12 @@
           max-height: 25%;
           padding-top: 44px;
           margin-top: 48px;
-
-
         }
 
         img {
           width: 100%;
           height: 100%;
           object-fit: contain;
-
 
           @include mobile {
             object-fit: contain;

@@ -44,16 +44,16 @@ const Skills = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src={people} alt="" />
+          {/*<img src={people} alt="" />*/}
           <h1>
-            <motion.b whileHover={{ color: 'orange' }}>Unique</motion.b> Ideas
+            What <motion.b whileHover={{ color: 'orange' }}>Languages, Frameworks,</motion.b>
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: 'orange' }}>For Your</motion.b> Business.
+            and<motion.b whileHover={{ color: 'orange' }}> Tools </motion.b> I use?
           </h1>
-          <button>WHAT I DO?</button>
+          {/*<button>WHAT I DO?</button>*/}
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
