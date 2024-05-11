@@ -3,11 +3,12 @@
 .navbar {
   height: 100px;
 
+
   .wrapper {
     max-width: 1366px;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     height: 100%;
 
@@ -19,15 +20,6 @@
     span {
       font-weight: bold;
       margin-left: 5%;
-
-
-      @include mobile {
-        display: none;
-      }
-
-      @include tablet {
-        margin-left: 12%;
-      }
 
     }
 
