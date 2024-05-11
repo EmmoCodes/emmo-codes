@@ -40,7 +40,7 @@ const Skills = () => {
       animate={'animate'}>
       <motion.div className="textContainer" variants={variants}>
         <p>Skills & Tools</p>
-        <hr />
+        <hr className={`break`} />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">

@@ -20,6 +20,10 @@
     align-items: center;
     gap: 20px;
 
+    .break {
+      width: 160%;
+    }
+
 
     @include mobile {
       align-self: center;
