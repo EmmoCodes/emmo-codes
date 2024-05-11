@@ -16,6 +16,7 @@
     max-width: 1366px;
     height: 100%;
     margin: auto;
+    padding-top: 5rem;
 
     .textContainer {
       width: 100%;
@@ -71,11 +72,23 @@
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;
+
+          @include mobile {
+            margin-top: 4rem;
+          }
         }
       }
 
       img {
         width: 50px;
+
+        @include mobile {
+          position: absolute;
+          bottom: 0;
+          padding-bottom: 4rem;
+
+        }
+
       }
     }
   }
