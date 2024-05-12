@@ -94,8 +94,10 @@
         min-width: 15vw;
         max-width: 35vw;
 
+
         @include mobile {
-          max-height: 25%;
+          max-height: 30%;
+
         }
 
         img {
@@ -106,7 +108,7 @@
           @include mobile {
             transform: translateX(-50%);
             margin-left: 50%;
-            min-width: 6rem;
+            min-width: 7rem;
           }
 
 
