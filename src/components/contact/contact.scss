@@ -8,6 +8,7 @@
   align-items: center;
   gap: 50px;
 
+
   @include mobile {
     width: 100%;
     padding: 10px;
@@ -20,6 +21,10 @@
     padding-right: 0.5%;
   }
 
+  @include xsMobile {
+    padding-bottom: 35%;
+    gap: 0px;
+  }
   .textContainer {
     flex: 1;
     display: flex;
