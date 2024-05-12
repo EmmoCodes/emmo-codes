@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import Links from './links/Links.jsx'
 import './sidebar.scss'
@@ -24,6 +24,10 @@ const variants = {
 }
 const Sidebar = () => {
   const [open, setOpen] = useState(false)
+
+  useEffect(() => {
+    console.log('jo')
+  }, [open])
 
   return (
     <motion.div className="sidebar" animate={open ? 'open' : 'closed'}>
