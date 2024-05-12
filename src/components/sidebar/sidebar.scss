@@ -8,8 +8,13 @@
   color: black;
 
   .hide {
-    visibility: hidden;
+    transition: visibility;
+    transition-delay: 0.5s;
     background-color: #000;
+
+    @include tablet {
+      visibility: hidden;
+    }
   }
   .show {
     visibility: initial;
@@ -48,15 +53,30 @@
     }
   }
 
+
+  .burgerWrapper {
+
+    @include tablet {
+      background-color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 18px;
+      left: 19px;
+    }
+
   button {
     z-index: 999;
     position: fixed;
     width: 30px;
     height: 30px;
-    top: 35px;
+    top: 36px;
     left: 35px;
     background-color: transparent;
     border: none;
     cursor: pointer;
+  }
   }
 }
