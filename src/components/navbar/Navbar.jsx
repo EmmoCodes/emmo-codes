@@ -1,8 +1,8 @@
 import Sidebar from '../sidebar/Sidebar.jsx'
 import './navbar.scss'
-import linkedIn from '/public/linkedIn.svg'
-import gitHub from '/public/gitHub.svg'
-import mail from '/public/mail.svg'
+import linkedIn from '/src/img/linkedIn.svg'
+import gitHub from '/src/img/gitHub.svg'
+import mail from '/src/img/mail.svg'
 
 const Navbar = () => {
   return (

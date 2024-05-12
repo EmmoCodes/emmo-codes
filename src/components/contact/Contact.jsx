@@ -29,7 +29,7 @@ const Contact = () => {
   const sendEmail = e => {
     e.preventDefault()
 
-    emailjs.sendForm('service_94y20xo', 'template_v10u2oh', formRef.current, 'pX_2hasGmGcuvjXIW').then(
+    emailjs.sendForm('service_956sg58', 'template_mmud4cm', formRef.current, 'G70nBEA2aQkP6M1j9').then(
       result => {
         setSuccess(true)
       },

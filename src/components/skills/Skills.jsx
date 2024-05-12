@@ -1,7 +1,6 @@
 import { useRef } from 'react'
 import './skills.scss'
 import { motion, useInView } from 'framer-motion'
-import people from '/public/people.webp'
 
 const variants = {
   initial: {
@@ -40,7 +39,7 @@ const Skills = () => {
       animate={'animate'}>
       <motion.div className="textContainer" variants={variants}>
         <p>Skills & Tools</p>
-        <hr className={`break`} />
+        <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
@@ -59,15 +58,15 @@ const Skills = () => {
       <motion.div className="listContainer" variants={variants}>
         <motion.div className="box">
           <h2>Frontend</h2>
-          <div className={`list`}>
+          <div className={`skillItem`}>
             {frontend.map(item => (
-              <p>{item}</p>
+              <p key={item}>{item}</p>
             ))}
           </div>
         </motion.div>
         <motion.div className="box">
           <h2>Backend</h2>
-          <div className={`list`}>
+          <div className={`skillItem`}>
             {backend.map(item => (
               <p>{item}</p>
             ))}
@@ -75,7 +74,7 @@ const Skills = () => {
         </motion.div>
         <motion.div className="box">
           <h2>Tools</h2>
-          <div className={`list`}>
+          <div className={`skillItem`}>
             {tools.map(item => (
               <p>{item}</p>
             ))}
