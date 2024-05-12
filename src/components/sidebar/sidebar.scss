@@ -62,9 +62,10 @@
       border-radius: 50%;
       width: 60px;
       height: 60px;
-      position: absolute;
+      position: fixed;
       top: 18px;
       left: 19px;
+      z-index: 9999;
     }
 
   button {
