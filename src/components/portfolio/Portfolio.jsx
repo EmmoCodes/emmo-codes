@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import './portfolio.scss'
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
+import { Slideshow } from '../slideshow/Slideshow.jsx'
 
 const items = [
   {
@@ -57,7 +58,8 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+            {/*<img src={item.img} alt="" />*/}
+            <Slideshow />
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
