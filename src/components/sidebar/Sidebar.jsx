@@ -26,10 +26,12 @@ const variants = {
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false)
-
+  useEffect(() => {
+    console.log(open)
+  }, [open])
   return (
-    <motion.div className="sidebar" animate={open ? 'open' : 'closed'}>
-      <motion.div className="bg" variants={variants}>
+    <motion.div className={`sidebar`} animate={open ? 'open' : 'closed'}>
+      <motion.div className={`${open ? 'show' : 'hide'} bg`} variants={variants}>
         <Links />
       </motion.div>
       <ToggleButton setOpen={setOpen} />
