@@ -24,6 +24,7 @@ const textVariants = {
     },
   },
 }
+
 const sliderVariants = {
   initial: {
     x: 0,
@@ -69,7 +70,6 @@ const Hero = () => {
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
         Emmo Codes
       </motion.div>
-      <div className="imageContainer"></div>
     </div>
   )
 }
