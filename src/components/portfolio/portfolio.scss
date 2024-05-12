@@ -106,16 +106,29 @@
           }
         }
 
-        .list {
+        .btnContainer {
+          display: flex;
+          width: 35%;
+          gap: 24px;
+          margin-left: auto;
+          margin-right: auto;
+
+          @include mobile {
+            width: 100%;
+            justify-content: space-evenly;
+          }
+
+        .btn {
           background-color: orange;
           border: none;
           border-radius: 10px;
           padding: 10px;
-          width: 200px;
+          width: 100px;
           cursor: pointer;
           color: black;
           z-index: 1;
           text-align: center;
+        }
         }
       }
     }
