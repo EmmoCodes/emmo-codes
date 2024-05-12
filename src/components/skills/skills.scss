@@ -133,12 +133,19 @@
       justify-content: start;
     }
 
+div:nth-last-child(even) {
+  @include xsMobile {
+    max-height: 7rem;
+  }
+}
+
     .box {
       padding: 20px;
       border: 0.5px solid gray;
       flex-direction: column;
       display: flex;
       width: 20%;
+
 
 
       @include tablet {
@@ -151,9 +158,9 @@
         width: 100%;
         padding: 0;
         max-height: 9rem;
-
-
       }
+
+      
 
       h2 {
         font-size: 2.5rem;
