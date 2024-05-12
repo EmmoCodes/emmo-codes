@@ -8,6 +8,7 @@ const variants = {
   open: {
     clipPath: 'circle(1200px at 50px 50px)',
     transition: {
+      opacity: 0,
       type: 'spring',
       stiffness: 20,
     },
@@ -22,12 +23,9 @@ const variants = {
     },
   },
 }
+
 const Sidebar = () => {
   const [open, setOpen] = useState(false)
-
-  useEffect(() => {
-    console.log('jo')
-  }, [open])
 
   return (
     <motion.div className="sidebar" animate={open ? 'open' : 'closed'}>
