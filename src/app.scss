@@ -29,11 +29,18 @@ section {
   overflow: hidden;
 }
 
+@mixin xsMobile {
+  @media (max-width: 527px) {
+    @content;
+  }
+}
+
 @mixin mobile {
   @media (max-width: 738px) {
     @content;
   }
 }
+
 
 @mixin tablet {
   @media (max-width: 1024px) {
