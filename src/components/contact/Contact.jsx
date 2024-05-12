@@ -81,6 +81,7 @@ const Contact = () => {
             />
           </svg>
         </motion.div>
+
         <motion.form
           ref={formRef}
           onSubmit={sendEmail}

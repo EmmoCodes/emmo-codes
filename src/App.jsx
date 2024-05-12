@@ -6,8 +6,6 @@ import Navbar from './components/navbar/Navbar.jsx'
 import Parallax from './components/parallax/Parallax.jsx'
 import Portfolio from './components/portfolio/Portfolio.jsx'
 import Skills from './components/skills/Skills.jsx'
-import { Slide } from 'react-slideshow-image'
-import { Slideshow } from './components/slideshow/Slideshow.jsx'
 
 const App = () => {
   return (
