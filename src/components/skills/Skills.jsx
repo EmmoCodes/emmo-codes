@@ -45,7 +45,8 @@ const Skills = () => {
         <div className="title">
           {/*<img src={people} alt="" />*/}
           <h1>
-            What <motion.b whileHover={{ color: 'orange' }}>Languages, Frameworks,</motion.b>
+            What <motion.b whileHover={{ color: 'orange' }}>Languages,</motion.b>
+            <motion.b whileHover={{ color: 'orange' }}> Frameworks,</motion.b>
           </h1>
         </div>
         <div className="title">
