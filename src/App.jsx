@@ -1,4 +1,3 @@
-import Test from './Test.jsx'
 import './app.scss'
 import Contact from './components/contact/Contact.jsx'
 import Hero from './components/hero/Hero.jsx'
