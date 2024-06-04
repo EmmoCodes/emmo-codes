@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import Links from './links/Links.jsx'
 import './sidebar.scss'
 import ToggleButton from './toggleButton/ToggleButton.jsx'
+import Chatbot from '../chatbot/Chatbot.jsx'
 
 const variants = {
   open: {
@@ -27,15 +28,20 @@ const variants = {
 const Sidebar = () => {
   const [open, setOpen] = useState(false)
   useEffect(() => {
-    console.log(open)
+    window.sessionStorage.setItem('open', JSON.stringify(open))
   }, [open])
   return (
-    <motion.div className={`sidebar`} animate={open ? 'open' : 'closed'}>
-      <motion.div className={`${open ? 'show' : 'hide'} bg`} variants={variants}>
-        <Links />
+    <>
+      <div className={`${open ? 'show' : 'hide'}`}>
+        <Chatbot />
+      </div>
+      <motion.div className={`sidebar`} animate={open ? 'open' : 'closed'}>
+        <motion.div className={`${open ? 'show' : 'hide'} bg`} variants={variants}>
+          <Links />
+        </motion.div>
+        <ToggleButton setOpen={setOpen} />
       </motion.div>
-      <ToggleButton setOpen={setOpen} />
-    </motion.div>
+    </>
   )
 }
 

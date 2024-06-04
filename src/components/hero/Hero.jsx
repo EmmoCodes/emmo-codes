@@ -30,11 +30,11 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: '-250%',
+    x: '-305%',
     transition: {
       repeat: Infinity,
       repeatType: 'mirror',
-      duration: 20,
+      duration: 60,
     },
   },
 }
@@ -48,11 +48,11 @@ const Hero = () => {
           <motion.div variants={textVariants} className={`typeAnimation`}>
             <TypeAnimation
               sequence={[
-                'Hi there!',
+                'Hey du!',
                 1000,
-                "I'm a Junior Fullstack Developer.",
+                'Ich bin Junior Fullstack Dev.',
                 1500,
-                'I build things for the web.',
+                "Ich baue Dinge für's Internet.",
                 1500,
               ]}
               wrapper="span"
@@ -61,14 +61,18 @@ const Hero = () => {
             />
           </motion.div>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>See the Latest Works</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.a href="#Portfolio" variants={textVariants}>
+              Meine Projekte
+            </motion.a>
+            <motion.a href="#Kontakt" variants={textVariants}>
+              Kontakt
+            </motion.a>
           </motion.div>
           <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" className={`scrollImg`} />
         </motion.div>
       </div>
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-        Emmo Codes
+        Orlandi Dev
       </motion.div>
     </div>
   )

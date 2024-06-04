@@ -42,14 +42,14 @@ const Contact = () => {
   return (
     <motion.div ref={ref} className="contact" variants={variants} initial="initial" whileInView="animate">
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let’s work together</motion.h1>
+        <motion.h1 variants={variants}>Lass uns kooperieren!</motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
+          <h2>Email</h2>
           <span>Gianluca1996@gmx.de</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Location</h2>
-          <span>Bavaria, Munich</span>
+          <h2>Standort</h2>
+          <span>Bayern, München</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
@@ -90,10 +90,10 @@ const Contact = () => {
           transition={{ delay: 4, duration: 1 }}>
           <input type="text" required placeholder="Name" name="name" />
           <input type="email" required placeholder="Email" name="email" />
-          <textarea rows={8} placeholder="Message" name="message" />
-          <button>Submit</button>
-          {error && 'Error'}
-          {success && 'Success'}
+          <textarea rows={8} placeholder="Nachricht" name="message" />
+          <button>Senden</button>
+          {error && 'Fehler'}
+          {success && 'Erfolgreich'}
         </motion.form>
       </div>
     </motion.div>

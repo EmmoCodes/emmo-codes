@@ -8,25 +8,25 @@ const items = [
     id: 1,
     repo: 'https://github.com/EmmoCodes/instagram_mockup_frontend',
     url: 'https://fakestagram.onrender.com/register',
-    title: 'Social Media App',
+    title: 'Soziales Netzwerk',
     img: ['./toktok4.png', './toktok2.png', './toktok3.png', './toktok1.png'],
-    desc: 'Eine Website im Mobiledesign (iPhone12 Pro), um Fotos zu posten, zu kommentieren, zu "liken" und Lieblingsfotos von Freunden zu speichern.',
+    desc: 'Eine Webseite im Mobiledesign (iPhone12 Pro), um Fotos zu posten, zu kommentieren, zu "liken" und Lieblingsfotos von Freunden zu speichern.',
   },
   {
     id: 2,
     repo: 'https://github.com/EmmoCodes/movie_app',
     url: 'https://njetflix.netlify.app/',
-    title: 'Movie App',
+    title: 'Film Webseite',
     img: ['./movieApp1.png', './movieApp2.png', './movieApp3.png', './movieApp4.png'],
     desc:
-      'Eine Website in MacBook13" und iPhone XR resolution, zu Film und Seriensuche für Interessenten. Favoriten\n' +
+      'Eine Webseite in MacBook13" und iPhone XR resolution, zu Film und Seriensuche für Interessenten. Favoriten\n' +
       '            können gespeichert, verwaltet und Trailer angesehen werden.',
   },
   {
     id: 3,
     repo: 'https://github.com/EmmoCodes/rock_paper_scissors',
     url: 'https://emmocodes.github.io/rock_paper_scissors/',
-    title: 'Rock, Paper, Scissor',
+    title: 'Schere, Stein, Papier',
     img: ['./rockPaperScissor1.png', './rockPaperScissor2.png', './rockPaperScissor3.png'],
 
     desc:
@@ -40,7 +40,7 @@ const items = [
     title: 'New Interior',
     img: ['./newInterior1.png', './newInterior2.png', './newInterior3.png'],
     desc:
-      'Eine Mode-Website in MacBook 13", iPad Air und iPhone XR resolution. Meine erste Responsive Website in der\n' +
+      'Eine Mode-Webseite in MacBook 13", iPad Air und iPhone XR Auflösung. Meine erste Responsive Website in der\n' +
       '            ich Flexbox angewendet habe.',
   },
 ]
@@ -54,9 +54,7 @@ const Single = ({ item }) => {
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300])
 
-  useEffect(() => {
-    console.log(item.title)
-  }, [item.title])
+  useEffect(() => {}, [item.title])
 
   return (
     <section>
@@ -71,10 +69,10 @@ const Single = ({ item }) => {
             <p>{item.desc}</p>
             <div className={`btnContainer`}>
               <a className={'btn'} href={item.url}>
-                Website
+                Webseite
               </a>
               <a className={'btn'} href={item.repo}>
-                Repository
+                Code
               </a>
             </div>
           </motion.div>
@@ -100,7 +98,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Featured Works</h1>
+        <h1>Portfolio</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map(item => (

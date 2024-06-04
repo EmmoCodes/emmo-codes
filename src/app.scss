@@ -29,6 +29,7 @@ section {
   overflow: hidden;
 }
 
+
 @mixin xsMobile {
   @media (max-width: 527px) {
     @content;
@@ -54,6 +55,13 @@ section {
   }
 }
 
+.bp-widget-widget {
+
+  @include mobile {
+    margin-bottom: 18px;
+    right: 16px !important;
+  }
+}
 
 
 
