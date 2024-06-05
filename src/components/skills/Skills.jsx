@@ -21,7 +21,7 @@ const variants = {
 
 const frontend = ['HTML', 'CSS', 'JavaScript', 'React.js', 'SASS', 'Tailwind']
 const backend = ['Express.js', 'Node.js', 'MongoDB']
-const tools = ['EsLint', 'Figma', 'Git', 'GitHub', 'MaterialUI', 'FramerMotion', 'Postman', 'Trello', 'Webstorm']
+const tools = ['EsLint', 'Figma', 'Git', 'GitHub', 'MaterialUI', 'F-Motion', 'Postman', 'Trello', 'Webstorm']
 
 const Skills = () => {
   const ref = useRef()
