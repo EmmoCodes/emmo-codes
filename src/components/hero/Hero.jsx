@@ -30,11 +30,11 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: '-305%',
+    x: '-252%',
     transition: {
       repeat: Infinity,
       repeatType: 'mirror',
-      duration: 60,
+      duration: 30,
     },
   },
 }
@@ -72,7 +72,7 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-        Orlandi Dev
+        Orlandi Dev Orlandi Dev
       </motion.div>
     </div>
   )

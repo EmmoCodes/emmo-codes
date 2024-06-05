@@ -10,16 +10,16 @@ const items = [
     url: 'https://fakestagram.onrender.com/register',
     title: 'Soziales Netzwerk',
     img: ['./toktok4.png', './toktok2.png', './toktok3.png', './toktok1.png'],
-    desc: 'Eine Webseite im Mobiledesign (iPhone12 Pro), um Fotos zu posten, zu kommentieren, zu "liken" und Lieblingsfotos von Freunden zu speichern.',
+    desc: 'Eine Website im Mobiledesign (iPhone12 Pro), um Fotos zu posten, zu kommentieren, zu "liken" und Lieblingsfotos von Freunden zu speichern.',
   },
   {
     id: 2,
     repo: 'https://github.com/EmmoCodes/movie_app',
     url: 'https://njetflix.netlify.app/',
-    title: 'Film Webseite',
-    img: ['./movieApp1.png', './movieApp2.png', './movieApp3.png', './movieApp4.png'],
+    title: 'Film Website',
+    img: ['./movieApp1.png', './movieApp2.png', './movieApp3.png'],
     desc:
-      'Eine Webseite in MacBook13" und iPhone XR resolution, zu Film und Seriensuche für Interessenten. Favoriten\n' +
+      'Eine Website in MacBook13" und iPhone XR resolution, zu Film und Seriensuche für Interessenten. Favoriten\n' +
       '            können gespeichert, verwaltet und Trailer angesehen werden.',
   },
   {
@@ -40,7 +40,7 @@ const items = [
     title: 'New Interior',
     img: ['./newInterior1.png', './newInterior2.png', './newInterior3.png'],
     desc:
-      'Eine Mode-Webseite in MacBook 13", iPad Air und iPhone XR Auflösung. Meine erste Responsive Website in der\n' +
+      'Eine Mode-Website in MacBook 13", iPad Air und iPhone XR Auflösung. Meine erste Responsive Website in der\n' +
       '            ich Flexbox angewendet habe.',
   },
 ]

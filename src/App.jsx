@@ -18,7 +18,7 @@ const App = () => {
   return (
     <>
       <div>
-        <section id="Webseite">
+        <section id="Website">
           <Navbar />
           <Hero />
         </section>

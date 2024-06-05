@@ -55,6 +55,7 @@
     align-items: center;
 
 
+
     @include mobile {
       width: 100%;
       max-height: 8rem;
@@ -126,6 +127,7 @@
     display: flex;
     justify-content: space-evenly;
 
+
     
     @include mobile {
       flex-direction: column;
@@ -141,11 +143,12 @@ div:nth-last-child(even) {
 
     .box {
       padding: 20px;
-      border: 0.5px solid gray;
+      border: 2px solid gray;
       flex-direction: column;
       display: flex;
       width: 20%;
       border-radius: 15px;
+
 
 
 
@@ -186,6 +189,7 @@ div:nth-last-child(even) {
         align-items: center;
 
 
+
         @include tablet {
           display: grid;
           gap: 4px;
@@ -211,7 +215,7 @@ div:nth-last-child(even) {
 
 
         p {
-          border: solid 1px white;
+          border: 2px solid gray;
           padding: 10%;
           color: orange;
           font-size: 1em;
