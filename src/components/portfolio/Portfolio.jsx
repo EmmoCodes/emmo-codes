@@ -14,13 +14,11 @@ const items = [
   },
   {
     id: 2,
-    repo: 'https://github.com/EmmoCodes/movie_app',
-    url: 'https://njetflix.netlify.app/',
+    repo: 'https://github.com/EmmoCodes/.mov',
+    url: 'https://mov7.netlify.app',
     title: 'Film Website',
-    img: ['./movieApp1.png', './movieApp2.png', './movieApp3.png'],
-    desc:
-      'Eine Website in MacBook13" und iPhone XR resolution, zu Film und Seriensuche für Interessenten. Favoriten\n' +
-      '            können gespeichert, verwaltet und Trailer angesehen werden.',
+    img: ['./movieApp1.png', './movieApp2.png', './movieApp3.png', '/movieApp4.png'],
+    desc: '.mov eine voll responsive Filmwebsite. Besucher können hochwertige Trailer direkt auf der Seite ansehen, ihre Lieblingsfilme markieren und in einer persönlichen Watchlist verwalten. Diese Seite vereint ansprechendes Design mit einer benutzerfreundlichen Erfahrung, ideal für Filmbegeisterte.',
   },
   {
     id: 3,
