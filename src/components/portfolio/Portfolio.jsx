@@ -17,7 +17,7 @@ const items = [
     repo: 'https://github.com/EmmoCodes/.mov',
     url: 'https://mov7.netlify.app',
     title: 'Film Website',
-    img: ['./movieApp1.png', './movieApp2.png', './movieApp3.png', '/movieApp4.png'],
+    img: ['./movieAppFirst.png', './movieAppSecond.png', './movieAppThird.png', '/movieAppFourth.png'],
     desc: '.mov eine voll responsive Filmwebsite. Besucher können hochwertige Trailer direkt auf der Seite ansehen, ihre Lieblingsfilme markieren und in einer persönlichen Watchlist verwalten. Diese Seite vereint ansprechendes Design mit einer benutzerfreundlichen Erfahrung, ideal für Filmbegeisterte.',
   },
   {
