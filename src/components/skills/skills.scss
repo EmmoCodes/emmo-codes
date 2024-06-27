@@ -1,4 +1,5 @@
 @import "../../app.scss";
+
 .skills {
   background: linear-gradient(180deg, #0c0c1d, #111132);
   height: 100%;
@@ -30,7 +31,7 @@
       max-height: 3.5rem;
 
     }
-    
+
     p {
       font-weight: 200;
       font-size: 20px;
@@ -48,6 +49,7 @@
       }
     }
   }
+
   .titleContainer {
     flex: 2;
     display: flex;
@@ -59,6 +61,7 @@
     @include mobile {
       width: 100%;
       max-height: 8rem;
+      flex: initial;
     }
 
     .title {
@@ -89,11 +92,11 @@
       }
 
       h1 {
-        font-size: 96px;
+        font-size: 5rem;
         font-weight: 100;
 
         @include tablet {
-          font-size: 5rem;
+          font-size: 3rem;
 
         }
 
@@ -116,30 +119,35 @@
           width: 150px;
           height: 50px;
         }
+
         @include tablet {
           width: 20rem;
         }
       }
     }
   }
+
   .listContainer {
     flex: 2;
     display: flex;
     justify-content: space-evenly;
+    gap: 1rem;
 
 
-    
+
     @include mobile {
       flex-direction: column;
       width: 100%;
       justify-content: start;
+      flex: initial;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+      gap: 0.5rem;
     }
 
-div:nth-last-child(even) {
-  @include xsMobile {
-    max-height: 7rem;
-  }
-}
+    div:nth-last-child(even) {
+      @include xsMobile {}
+    }
 
     .box {
       padding: 20px;
@@ -161,10 +169,9 @@ div:nth-last-child(even) {
       @include mobile {
         width: 100%;
         padding: 0;
-        max-height: 9rem;
       }
 
-      
+
 
       h2 {
         font-size: 2.5rem;
@@ -174,6 +181,7 @@ div:nth-last-child(even) {
           font-size: 1.5rem;
           padding-bottom: 24px;
         }
+
         @include mobile {
           font-size: 1.5rem;
           padding: 0;
@@ -209,8 +217,9 @@ div:nth-last-child(even) {
         @include xsMobile {
           display: grid;
           gap: 4px;
-          grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
           width: 100%;
+          justify-content: center;
         }
 
 
@@ -229,7 +238,11 @@ div:nth-last-child(even) {
 
           @include mobile {
             padding: 1%;
-    max-height: 2rem;
+            max-height: 2rem;
+          }
+
+          @include xsMobile {
+            max-height: 3rem;
           }
         }
       }

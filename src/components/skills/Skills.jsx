@@ -19,9 +19,21 @@ const variants = {
   },
 }
 
-const frontend = ['HTML', 'CSS', 'JavaScript', 'React.js', 'SASS', 'Tailwind']
+const frontend = ['HTML', 'CSS', 'JavaScript', 'React.js']
+const learning = ['Next.js', 'TypeScript', 'AI Tools', 'Payload', 'Vercel']
 const backend = ['Express.js', 'Node.js', 'MongoDB']
-const tools = ['EsLint', 'Figma', 'Git', 'GitHub', 'MaterialUI', 'F-Motion', 'Postman', 'Trello', 'Webstorm', 'NeoVim']
+const tools = [
+  'EsLint',
+  'Figma',
+  'Tailwind',
+  'SASS',
+  'MaterialUI',
+  'F-Motion',
+  'Postman',
+  'Trello',
+  'Webstorm',
+  'NeoVim',
+]
 
 const Skills = () => {
   const ref = useRef()
@@ -77,6 +89,14 @@ const Skills = () => {
           <h2>Werkzeuge</h2>
           <div className={`skillItem`}>
             {tools.map(item => (
+              <p>{item}</p>
+            ))}
+          </div>
+        </motion.div>
+        <motion.div className="box">
+          <h2>Learning</h2>
+          <div className={`skillItem`}>
+            {learning.map(item => (
               <p>{item}</p>
             ))}
           </div>
