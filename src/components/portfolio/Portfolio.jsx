@@ -37,9 +37,7 @@ const items = [
     repo: 'https://github.com/EmmoCodes/new_interior',
     title: 'New Interior',
     img: ['./newInterior1.png', './newInterior2.png', './newInterior3.png'],
-    desc:
-      'Eine Mode-Website in MacBook 13", iPad Air und iPhone XR Auflösung. Meine erste Responsive Website in der\n' +
-      '            ich Flexbox angewendet habe.',
+    desc: 'New Interior ist eine voll Responsive Dienstleistungs-Website mit Services, Blog, Customer-Reviews und Kontakt-Formular. Die richtige Mischung aus Modern und Minimalistisch.',
   },
 ]
 
