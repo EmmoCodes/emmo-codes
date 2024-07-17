@@ -4,14 +4,14 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 import { Slideshow } from '../slideshow/Slideshow.jsx'
 
 const items = [
-  {
-    id: 1,
-    repo: 'https://github.com/EmmoCodes/instagram_mockup_frontend',
-    url: 'https://fakestagram.onrender.com/register',
-    title: 'Soziales Netzwerk',
-    img: ['./toktok4.png', './toktok2.png', './toktok3.png', './toktok1.png'],
-    desc: 'Eine Website im Mobiledesign (iPhone12 Pro), um Fotos zu posten, zu kommentieren, zu "liken" und Lieblingsfotos von Freunden zu speichern.',
-  },
+  // {
+  //   id: 1,
+  //   repo: 'https://github.com/EmmoCodes/instagram_mockup_frontend',
+  //   url: 'https://fakestagram.onrender.com/register',
+  //   title: 'Soziales Netzwerk',
+  //   img: ['./toktok4.png', './toktok2.png', './toktok3.png', './toktok1.png'],
+  //   desc: 'Eine Website im Mobiledesign (iPhone12 Pro), um Fotos zu posten, zu kommentieren, zu "liken" und Lieblingsfotos von Freunden zu speichern.',
+  // },
   {
     id: 2,
     repo: 'https://github.com/EmmoCodes/.mov',
