@@ -4,14 +4,14 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 import { Slideshow } from '../slideshow/Slideshow.jsx'
 
 const items = [
-  // {
-  //   id: 1,
-  //   repo: 'https://github.com/EmmoCodes/instagram_mockup_frontend',
-  //   url: 'https://fakestagram.onrender.com/register',
-  //   title: 'Soziales Netzwerk',
-  //   img: ['./toktok4.png', './toktok2.png', './toktok3.png', './toktok1.png'],
-  //   desc: 'Eine Website im Mobiledesign (iPhone12 Pro), um Fotos zu posten, zu kommentieren, zu "liken" und Lieblingsfotos von Freunden zu speichern.',
-  // },
+  {
+    id: 1,
+    url: 'https://vonc-team.de',
+    title: 'VONC Beratung',
+    img: ['./vonc1.png', './vonc2.png', './vonc3.png', './vonc4.png'],
+
+    desc: 'Eine voll responsive Vermögensberatungswebsite. Besucher können Finanzberatungen erhalten, mit einem integrierten Chatbot interagieren und Animationen erleben. Diese Seite vereint professionelles Design mit einer benutzerfreundlichen Erfahrung.',
+  },
   {
     id: 2,
     repo: 'https://github.com/EmmoCodes/.mov',
@@ -67,9 +67,12 @@ const Single = ({ item }) => {
               <a className={'btn'} href={item.url}>
                 Webseite
               </a>
-              <a className={'btn'} href={item.repo}>
-                Code
-              </a>
+
+              {item?.repo ? (
+                <a className={'btn'} href={item.repo}>
+                  Code
+                </a>
+              ) : null}
             </div>
           </motion.div>
         </div>
