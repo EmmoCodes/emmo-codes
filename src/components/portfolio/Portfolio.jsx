@@ -8,7 +8,7 @@ const items = [
     id: 1,
     url: 'https://vonc-team.de',
     title: 'VONC Beratung',
-    img: ['./vonc1.png', './vonc2.png', './vonc3.png', './vonc4.png'],
+    img: ['./vonc2.png', './vonc3.png', './vonc4.png'],
 
     desc: 'Eine voll responsive Vermögensberatungswebsite. Besucher können Finanzberatungen erhalten, mit einem integrierten Chatbot interagieren und Animationen erleben. Diese Seite vereint professionelles Design mit einer benutzerfreundlichen Erfahrung.',
   },
