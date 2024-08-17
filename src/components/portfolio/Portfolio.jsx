@@ -65,7 +65,7 @@ const Single = ({ item }) => {
             <p>{item.desc}</p>
             <div className={`btnContainer`}>
               <a className={'btn'} href={item.url}>
-                Webseite
+                Website
               </a>
 
               {item?.repo ? (
