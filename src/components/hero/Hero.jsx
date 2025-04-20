@@ -47,14 +47,7 @@ const Hero = () => {
           <motion.h2 variants={textVariants}>Marco Orlandi</motion.h2>
           <motion.div variants={textVariants} className={`typeAnimation`}>
             <TypeAnimation
-              sequence={[
-                'Hey du!',
-                1000,
-                'Ich bin Junior Fullstack Dev.',
-                1500,
-                "Ich baue Dinge für's Internet.",
-                1500,
-              ]}
+              sequence={['Hey du!', 1000, 'Ich bin Software Developer.', 1500, 'Nice, dass du da bist!', 1500]}
               wrapper="span"
               speed={70}
               repeat={Infinity}

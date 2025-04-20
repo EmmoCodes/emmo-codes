@@ -19,21 +19,10 @@ const variants = {
   },
 }
 
-const frontend = ['HTML', 'CSS', 'JavaScript', 'React.js']
-const learning = ['Next.js', 'TypeScript', 'AI Tools', 'Payload', 'Vercel']
-const backend = ['Express.js', 'Node.js', 'MongoDB']
-const tools = [
-  'EsLint',
-  'Figma',
-  'Tailwind',
-  'SASS',
-  'MaterialUI',
-  'F-Motion',
-  'Postman',
-  'Trello',
-  'Webstorm',
-  'NeoVim',
-]
+const frontend = ['React', 'TypeScript', 'JavaScript']
+const learning = ['Go(Golang)', 'Arch Linux']
+const backend = ['Express', 'Node', 'SQL', 'MongoDB']
+const tools = ['NeoVim', 'Mac', 'Windows', 'Figma', 'Tailwind', 'SASS', 'MaterialUI']
 
 const Skills = () => {
   const ref = useRef()

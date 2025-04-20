@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="wrapper">
         <span></span>
         <div className="social">
-          <a onClick={() => (window.location = 'mailto:Gianluca1996@gmx.de')} href="#">
+          <a onClick={() => (window.location = 'mailto:morlandidev@gmail.com')} href="#">
             <img src={mail} alt="" />
           </a>
           <a href="https://github.com/EmmoCodes">

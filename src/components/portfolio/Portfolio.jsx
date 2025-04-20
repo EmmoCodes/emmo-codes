@@ -20,25 +20,25 @@ const items = [
     img: ['./movieAppFirst.png', './movieAppSecond.png', './movieAppThird.png', '/movieAppFourth.png'],
     desc: '.mov eine voll responsive Filmwebsite. Besucher können hochwertige Trailer direkt auf der Seite ansehen, ihre Lieblingsfilme markieren und in einer persönlichen Watchlist verwalten. Diese Seite vereint ansprechendes Design mit einer benutzerfreundlichen Erfahrung, ideal für Filmbegeisterte.',
   },
-  {
-    id: 3,
-    repo: 'https://github.com/EmmoCodes/rock_paper_scissors',
-    url: 'https://emmocodes.github.io/rock_paper_scissors/',
-    title: 'Schere, Stein, Papier',
-    img: ['./rockPaperScissor1.png', './rockPaperScissor2.png', './rockPaperScissor3.png'],
-
-    desc:
-      'Das Schere-Stein-Papier-JavaScript-Projekt ist eine unterhaltsame Umsetzung des klassischen Spiels, das\n' +
-      '            Benutzern ermöglicht, gegen den Computer anzutreten und ihre Fähigkeiten zu testen.',
-  },
-  {
-    id: 4,
-    url: 'https://emmocodes.github.io/new_interior/',
-    repo: 'https://github.com/EmmoCodes/new_interior',
-    title: 'New Interior',
-    img: ['./newInterior1.png', './newInterior2.png', './newInterior3.png'],
-    desc: 'New Interior ist eine voll Responsive Dienstleistungs-Website mit Services, Blog, Customer-Reviews und Kontakt-Formular. Die richtige Mischung aus Modern und Minimalistisch.',
-  },
+  // {
+  //   id: 3,
+  //   repo: 'https://github.com/EmmoCodes/rock_paper_scissors',
+  //   url: 'https://emmocodes.github.io/rock_paper_scissors/',
+  //   title: 'Schere, Stein, Papier',
+  //   img: ['./rockPaperScissor1.png', './rockPaperScissor2.png', './rockPaperScissor3.png'],
+  //
+  //   desc:
+  //     'Das Schere-Stein-Papier-JavaScript-Projekt ist eine unterhaltsame Umsetzung des klassischen Spiels, das\n' +
+  //     '            Benutzern ermöglicht, gegen den Computer anzutreten und ihre Fähigkeiten zu testen.',
+  // },
+  // {
+  //   id: 4,
+  //   url: 'https://emmocodes.github.io/new_interior/',
+  //   repo: 'https://github.com/EmmoCodes/new_interior',
+  //   title: 'New Interior',
+  //   img: ['./newInterior1.png', './newInterior2.png', './newInterior3.png'],
+  //   desc: 'New Interior ist eine voll Responsive Dienstleistungs-Website mit Services, Blog, Customer-Reviews und Kontakt-Formular. Die richtige Mischung aus Modern und Minimalistisch.',
+  // },
 ]
 
 const Single = ({ item }) => {
