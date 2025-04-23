@@ -7,7 +7,7 @@ const items = [
   {
     id: 1,
     url: 'https://vonc-team.de',
-    title: 'VONC Beratung',
+    title: 'VONC-Team',
     img: ['./vonc2.png', './vonc3.png', './vonc4.png'],
     desc: 'A modern, responsive website for wealth consulting – perfectly optimized for all devices. Visitors receive personalized financial advice, can interact directly with an integrated chatbot, and are guided through the content with subtle animations. The site combines professional design with an intuitive and pleasant user experience.',
   },
