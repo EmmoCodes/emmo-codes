@@ -22,7 +22,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </section>
-        <section id="Fähigkeiten">
+        <section id="Skills">
           <Parallax type="skills" />
         </section>
         <section>
@@ -32,7 +32,7 @@ const App = () => {
           <Parallax type="portfolio" />
         </section>
         <Portfolio />
-        <section id="Kontakt">
+        <section id="Contact">
           <Contact />
         </section>
       </div>

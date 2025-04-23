@@ -39,20 +39,20 @@ const Skills = () => {
       ref={ref}
       animate={'animate'}>
       <motion.div className="textContainer" variants={variants}>
-        <p>Fähigkeiten</p>
+        <p>Skillset</p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           {/*<img src={people} alt="" />*/}
           <h1>
-            Welche <motion.b whileHover={{ color: 'orange' }}>Sprachen,</motion.b>
-            <motion.b whileHover={{ color: 'orange' }}> Frameworks,</motion.b>
+            What <motion.b whileHover={{ color: 'orange' }}>languages,</motion.b>
+            <motion.b whileHover={{ color: 'orange' }}> software,</motion.b>
           </h1>
         </div>
         <div className="title">
           <h1>
-            und<motion.b whileHover={{ color: 'orange' }}> Werkzeuge </motion.b> benutze ich?
+            and<motion.b whileHover={{ color: 'orange' }}> tools </motion.b> am i using?
           </h1>
           {/*<button>WHAT I DO?</button>*/}
         </div>
@@ -75,7 +75,7 @@ const Skills = () => {
           </div>
         </motion.div>
         <motion.div className="box">
-          <h2>Werkzeuge</h2>
+          <h2>Tools</h2>
           <div className={`skillItem`}>
             {tools.map(item => (
               <p>{item}</p>

@@ -9,16 +9,15 @@ const items = [
     url: 'https://vonc-team.de',
     title: 'VONC Beratung',
     img: ['./vonc2.png', './vonc3.png', './vonc4.png'],
-
-    desc: 'Eine voll responsive Vermögensberatungswebsite. Besucher können Finanzberatungen erhalten, mit einem integrierten Chatbot interagieren und Animationen erleben. Diese Seite vereint professionelles Design mit einer benutzerfreundlichen Erfahrung.',
+    desc: 'A modern, responsive website for wealth consulting – perfectly optimized for all devices. Visitors receive personalized financial advice, can interact directly with an integrated chatbot, and are guided through the content with subtle animations. The site combines professional design with an intuitive and pleasant user experience.',
   },
   {
     id: 2,
     repo: 'https://github.com/EmmoCodes/.mov',
     url: 'https://mov7.netlify.app',
-    title: 'Film Website',
+    title: 'Movie Website',
     img: ['./movieAppFirst.png', './movieAppSecond.png', './movieAppThird.png', '/movieAppFourth.png'],
-    desc: '.mov eine voll responsive Filmwebsite. Besucher können hochwertige Trailer direkt auf der Seite ansehen, ihre Lieblingsfilme markieren und in einer persönlichen Watchlist verwalten. Diese Seite vereint ansprechendes Design mit einer benutzerfreundlichen Erfahrung, ideal für Filmbegeisterte.',
+    desc: '.mov is a responsive film platform that delivers an outstanding experience across all devices. Visitors can stream high-quality trailers, mark their favorite movies, and organize them in a personal watchlist. The website blends modern design with intuitive navigation – perfect for everyone who loves movies.',
   },
   // {
   //   id: 3,
