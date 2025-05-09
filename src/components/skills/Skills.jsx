@@ -20,7 +20,7 @@ const variants = {
 }
 
 const frontend = ['React', 'TypeScript', 'JavaScript']
-const learning = ['Go(Golang)', 'Arch Linux', 'GraphQL']
+const learning = ['Go(Golang)', 'Arch Linux']
 const backend = ['Express', 'Node', 'SQL', 'NoSQL']
 const tools = ['NeoVim', 'Mac', 'Windows', 'Figma', 'Tailwind', 'SASS', 'MaterialUI']
 
